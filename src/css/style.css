@@ -1,0 +1,185 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#homeSection{
+	
+}
+
+#picOverlay{
+	background: #22313f;
+	height: 100vh;
+	opacity: 0.7;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.namePicCont{
+	position: absolute;
+	top: 50%;
+	color:#fff;
+}
+
+.namePicCont h2{
+	margin-bottom: 5px !important;
+	letter-spacing: 2px;
+	font-family: 'Exo', sans-serif;
+	font-size: 70px;
+}
+
+.namePicCont h2:hover{
+	font-size: 71px;
+	transition: all 0.2s;
+}
+
+.namePicCont a{
+	text-decoration: none;
+}
+
+.linkcap{
+	background: #4183d7;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	left: 1.5px;
+}
+
+.linkcapinsta{
+	background: #fbad50;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	left: 1.5px;
+}
+
+.linkcapgplus{
+	background: #d34836;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	left: 1.5px;
+}
+
+.linkcapgithub{
+	background: #2d2d2d;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+	left: 1.5px;
+}
+
+.profindi{
+	max-width: 35px;
+	margin:20px 28px;
+	height: 35px;
+	position: relative;
+	background: green;
+}
+
+.proflinks{
+	position: absolute;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	width: 35px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+	background: #fff;
+	z-index: 5;
+}
+
+.prolinkscont{
+	display: inline-flex;
+}
+
+.fbicon{
+	color:#4183d7;
+	font-size: 17px;
+}
+
+.fbicon:hover{
+	color:#4183d7;
+}
+
+.instaicon{
+	color:#fbad50;
+	font-size: 20px;
+}
+
+.instaicon:hover{
+	color:#fbad50;
+}
+
+.gplusicon{
+	color:#d34836;
+	font-size: 20px;
+}
+
+.gplusicon:hover{
+	color:#d34836;
+}
+
+.githubicon{
+	color:#2d2d2d;
+	font-size: 20px;
+}
+
+.githubicon:hover{
+	color:#2d2d2d;
+}
+
+.proflinks:hover{
+	background:#f2f1ef;
+	-webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	margin-top: 8px !important;
+	transition: all 0.2s;
+}
+
+.jobdesc{
+	letter-spacing: 2px;
+	font-size: 17px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.jobdesc:hover{
+	font-size: 18px;
+	transition: all 0.2s;
+}
+
+/*Start Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+/*End Scrollbar*/
+
+
+#aboutsection{
+	height: 100vh;
+	background: #4183d7;
+}
